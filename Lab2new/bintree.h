@@ -31,7 +31,7 @@ public:
     //Assister functions
     bool insert(NodeData* insertData);
     bool retrieve(const NodeData &a, NodeData* &b) const; //Get the nodeDara of a given object in the tree if it exists
-    void displaySideways() const;			// provided by instructor
+    void displaySideways() const;			// provided by instructor Chen
   
     //Accessors
     friend ostream& operator<<(ostream& output, const BinTree &a); //displt the inorder traversal
